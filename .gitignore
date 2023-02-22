@@ -17,3 +17,7 @@ london_traffic.feather
 __pycache__/get_satellite_data.cpython-39.pyc
 plots/.DS_Store
 plots/bristol_mse.html
+*.dbf
+*.prj
+*.shp
+*.shx
