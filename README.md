@@ -8,19 +8,17 @@ This report proposes a novel approach for predicting NO2 concentrations at unsee
 
 ## Files
 
-The graph_model.ipynb notebook contains the code for training and evaluating the GraphSAGE model.
+The `graph_model.ipynb` notebook contains the code for training and evaluating the GraphSAGE model.
 
-The bristol_ground_sat_weather_new.feather file contains the data for Bristol, including satellite air quality data, meteorological data, and NO2 concentration data from ground-based monitoring stations.
+The `bristol_ground_sat_weather_new.feather` file contains the data for Bristol, including satellite air quality data, meteorological data, and NO2 concentration data from ground-based monitoring stations. The `london_ground_sat_weather.feather` file contains the data for London.
 
-The get_satellite_data.py file contains the code for downloading the satellite air quality data from Google Earth Engine.
+The `get_satellite_data.py` file contains the code for downloading the satellite air quality data from Google Earth Engine.
 
-The lat_long_to_location.pkl file contains a mapping from latitude and longitude coordinates to locations.
-
-The london_ground_sat_weather.feather file contains the data for London, in the same format as the bristol_ground_sat_weather_new.feather file.
+The `lat_long_to_location.pkl` file contains a mapping from latitude and longitude coordinates to locations.
 
 The plots directory contains the plots that were generated for the project.
 
-The requirements.txt file lists the Python packages that are required to run the code.
+The `requirements.txt` file lists the Python packages that are required to run the code.
 
 Any other files are not relevant for running the latest model.
 
