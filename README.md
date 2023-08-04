@@ -7,7 +7,7 @@ This repository contains the code and data for the project "Transfer Learning wi
 This report proposes a novel approach for predicting NO2 concentrations at unseen locations in Bristol using satellite air quality and meteorological data, with the ultimate goal of creating a ‘virtual sensor’ for areas with limited air quality monitoring resources. Our approach utilises the GraphSAGE framework for inductive learning on graphs, combining autoregression and transfer learning with data from London in order to improve performance on the limited data available in Bristol. The proposed method is shown to have a 17% reduction in Normalised Root Mean Squared Error (NRMSE) compared to current models when evaluated on the same dataset.
 
 [![Predictions](transferred_graph_wellsrd.png)](transferred_graph_wellsrd.png)
-Actual vs predicted nitrogen dioxide values over a period of time for the Wells Road sensor in Bristol
+**Actual vs predicted nitrogen dioxide values over a period of time for the Wells Road sensor in Bristol**
 
 
 ## Files
@@ -46,7 +46,9 @@ If you have any questions, please contact me at [finn.gueterbock@gmail.com](mail
 
 ## Images
 
-[![Model Scatter Plots](model_scatters.png)](model_scatters.png)Scatter plots showing the accuracy of the different models used in the project. In this case, _transferred_ means the model was first trained on London data then fine-tuned and tested on Bristol data.
+[![Model Scatter Plots](model_scatters.png)](model_scatters.png)
+**Scatter plots showing the accuracy of the different models used in the project. In this case, _transferred_ means the model was first trained on London data then fine-tuned and tested on Bristol data.**
 
-[![Sample and Aggregation](sample_and_agg.png)](sample_and_agg.png)The GraphSAGE sample and aggregation process.
+[![Sample and Aggregation](sample_and_agg.png)](sample_and_agg.png)
+**The GraphSAGE sample and aggregation process.**
 
