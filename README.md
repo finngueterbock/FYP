@@ -32,7 +32,8 @@ Once you have installed the dependencies, you can run the code by running all th
 
 This will load in the data, format it into a graph, then train the model and evaluate it on the test set.
 
-Additional Resources
+### Additional Resources
+
 The GraphSAGE framework for inductive learning on graphs: [GraphSAGE](https://snap.stanford.edu/graphsage/#:~:text=GraphSAGE%20is%20a%20framework%20for,Code)
 
 ## Contact
